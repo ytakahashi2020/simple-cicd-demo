@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rails --version)",
+      "Bash(export PATH=\"$HOME/.gem/ruby/3.3.0/bin:$PATH\")",
+      "Bash(bundle exec rails:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}
